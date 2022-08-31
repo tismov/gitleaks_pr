@@ -1,7 +1,7 @@
 pipeline { 
     environment {
-    user = "turik207"
-    repo = "app_helm"
+    user = "turik207"           # github user https://github.com/turik207/app_helm.git
+    repo = "app_helm"           # github repo
     registry = "$user/$repo"
     }
     agent {
